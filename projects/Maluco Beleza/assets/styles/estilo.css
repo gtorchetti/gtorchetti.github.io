@@ -1,26 +1,39 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
-.subtitulo{
+.subtitulo {
     color: yellow;
 }
-.barranavegadora{
+.navigation {
     color: grey;
     text-align: center;
 }
-.headder{
+.header {
     font-size: 20px;
     font-size: 1em;
     background-color: yellow;
     width: 100vw;
     height: 25vh;
     text-align: center;
-   
 }
-.tittle{
+.title {
     font-size: 20px;
     font-size: 5em;
     font-family: 'Lobster Two', cursive;
     text-align: center;
-    }
+}
+.menu {
+    display: block;
+    margin-top: 10rem;
+}
+.cards {
+    padding: 5px 10px 10px 10px;
+}
+.location {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
