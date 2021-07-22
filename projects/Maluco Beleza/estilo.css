@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.subtitulo{
+    color: yellow;
+}
+.barranavegadora{
+    color: grey;
+    text-align: center;
+}
+.headder{
+    font-size: 20px;
+    font-size: 1em;
+    background-color: yellow;
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+   
+}
+.tittle{
+    font-size: 20px;
+    font-size: 5em;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    }

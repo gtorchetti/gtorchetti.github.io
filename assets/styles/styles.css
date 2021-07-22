@@ -1,0 +1,26 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #23272B;
+}
+.text {
+  text-align: center;
+  color: white;
+}
+.footer {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+.card {
+  box-shadow: 0px 10px 10px -6px black;
+  margin: 15px;
+  color: whitesmoke;
+  border-radius: 5px;
+  text-align: center;
+}
+.contactame {
+    align-items: center;
+}
+
+#center-grid {
+  padding-left: 50px;
+}
