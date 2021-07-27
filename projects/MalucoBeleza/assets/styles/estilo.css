@@ -3,6 +3,14 @@
     margin: 0px;
     scroll-behavior: smooth;
 }
+body {
+    background-image: url(https://fondosmil.com/fondo/4046.jpg);
+    background-size: cover;
+    background-position-x: 60%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 .subtitulo {
     color: yellow;
 }
@@ -23,13 +31,15 @@
     font-size: 5em;
     font-family: 'Lobster Two', cursive;
     text-align: center;
+    color: white;
 }
 .menu {
     display: block;
     margin-top: 10rem;
 }
 .cards {
-    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 1px black;
 }
 .location {
     display: block;
