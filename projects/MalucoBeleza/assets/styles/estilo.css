@@ -34,7 +34,8 @@ body {
     text-decoration:none;
 }
 .nav_search {
-    width: 203px;
+    width: 213px;
+    text-align: center;
     border-radius: 10px;
     border: 2px solid grey;
     position: relative;
@@ -59,8 +60,19 @@ body {
 .menu {
     display: block;
     margin-top: 1rem;
+   
+}
+.menu a {
     color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 5px 0 5px;
     text-decoration: none;
+    
+}
+.menu a:hover { 
+    background-color: black;
+    color: white;   
 }
 .cards {
     border-radius: 20px;
