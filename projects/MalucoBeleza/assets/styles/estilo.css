@@ -66,16 +66,22 @@ body {
    
 }
 .menu a {
-    color: black;
-    border: 2px solid black;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    background-color: rgb(255, 255, 47);
+    border: 2px solid rgb(17, 87, 0);
     border-radius: 10px;
-    padding: 0 5px 0 5px;
     text-decoration: none;
     
 }
 .menu a:hover { 
-    background-color: black;
-    color: white;   
+    background-color: yellow;
+    color: black;   
+}
+
+.menu_fast {
+    margin-top: 5px;
+    display: inline-block;
 }
 .cards {
     border-radius: 20px;
@@ -86,20 +92,22 @@ body {
 }
 .location {
     display: block;
-    text-align: center;
+    margin: 0 700px 0 700px;
 }
 
 .footer {
     display: block;
-    background-color: rgb(41, 41, 41);
-    border-top:black solid 2px;
+    height: 250px;
+    background-color: rgb(196, 196, 196);
+    border-top:black solid 1px;
     text-align: center;
     padding-top: 50px;
 }
 
 .footer h6 {
-    font-family: 'Raleway', sans-serif;
-    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
     margin-left: 15px;
 }
 
@@ -107,10 +115,11 @@ body {
     margin-left: 10px;
     display: inline-block;
     border: grey solid 3px;
-    background-color: grey;
+    background-color: rgb(153, 153, 153);
     border-radius: 25px;
 }
 
 footer { 
     padding-top: 50px;
 }
+
