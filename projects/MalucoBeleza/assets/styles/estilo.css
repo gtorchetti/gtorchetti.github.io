@@ -45,6 +45,7 @@ body {
 .subtitulo {
     color: black;
     text-align: center;
+    margin-left: -130px;
 }
 
 .header {
@@ -57,6 +58,8 @@ body {
     border-radius: 0 0 35px 20px;
     box-shadow: 0 0 55px 2px black;
 }
+
+
 .menu {
     display: block;
     margin-top: 1rem;
@@ -84,4 +87,30 @@ body {
 .location {
     display: block;
     text-align: center;
+}
+
+.footer {
+    display: block;
+    background-color: rgb(41, 41, 41);
+    border-top:black solid 2px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer h6 {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    margin-left: 15px;
+}
+
+.redes {
+    margin-left: 10px;
+    display: inline-block;
+    border: grey solid 3px;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+footer { 
+    padding-top: 50px;
 }

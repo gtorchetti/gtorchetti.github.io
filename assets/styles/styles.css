@@ -1,6 +1,6 @@
 * {
   font-family: 'DM Sans', sans-serif;
-  background-color: #23272B;
+  background-color: grey;
 }
 .text {
   text-align: center;
@@ -16,7 +16,15 @@
   color: whitesmoke;
   border-radius: 5px;
   text-align: center;
+  background-color: black;
 }
+
+.card:hover {
+    background-color: lime;
+    transition: 300ms;
+    
+}
+
 .contactame {
     align-items: center;
 }
