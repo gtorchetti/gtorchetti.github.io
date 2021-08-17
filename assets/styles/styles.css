@@ -18,17 +18,14 @@
   text-align: center;
   background-color: black;
 }
-
 .card:hover {
     background-color: lime;
     transition: 300ms;
     
 }
-
 .contactame {
     align-items: center;
 }
-
 #center-grid {
   padding-left: 50px;
 }
