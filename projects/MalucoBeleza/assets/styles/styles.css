@@ -28,6 +28,7 @@ body {
     text-decoration:none;
 }
 .nav_items:hover {
+    font-size: 16.5px;
     background-color: black;
     color: white;
     transition: 300ms;
@@ -37,10 +38,15 @@ body {
     width: 213px;
     text-align: center;
     border-radius: 10px;
-    border: 2px solid grey;
+    border: 2px solid black;
     position: relative;
     top: 5%;
     margin-left: 10px;
+}
+.nav_search:focus {
+    width: 400px;
+    box-shadow: 0 0 15px 2px black;
+    transition: 350ms;
 }
 .subtitulo {
     color: black;
@@ -88,8 +94,8 @@ body {
     transition: 250ms;
 }
 .location {
-    display: block;
-    margin: 0 700px 0 700px;
+    display: grid;
+    place-content: center;
 }
 .footer {
     display: block;
@@ -112,7 +118,11 @@ body {
     background-color: rgb(153, 153, 153);
     border-radius: 25px;
 }
-footer { 
+.redes img:hover {
+    width: 40px;
+    height: 40px;
+    transition: 150ms;
+}
+.footer { 
     padding-top: 50px;
 }
-

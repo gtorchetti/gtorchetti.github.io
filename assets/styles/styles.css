@@ -1,14 +1,15 @@
-* {
+ * {
   font-family: 'DM Sans', sans-serif;
-  background-color: grey;
+  background-color: black;
+  scroll-behavior: smooth;
 }
 .text {
   text-align: center;
   color: white;
 }
 .footer {
-    font-family: 'DM Sans', sans-serif;
-    color: white;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
 }
 .card {
   box-shadow: 0px 10px 10px -6px black;
@@ -19,13 +20,137 @@
   background-color: black;
 }
 .card:hover {
-    background-color: lime;
-    transition: 300ms;
+  background-color: grey;
+  transition: 500ms;
     
 }
 .contactame {
-    align-items: center;
+  align-items: center;
 }
 #center-grid {
   padding-left: 50px;
+}
+.header__title {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  border-radius: 5px;
+}
+.header__subtitle {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.header__arrow {
+  width: 30px;
+  height: 30px;
+}
+.text__null {
+  display: inline-block;
+}
+.goto__bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.projects__grid {
+  position: absolute;
+  top: 150%;
+}
+.header__arrow:hover {
+  width: 25px;
+  height: 25px;
+  transition: 80ms;
+}
+.header__title:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  transition: 600ms;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.link {
+  transition: color .15s ease-in;
+}
+.link:link, .link:visited {
+  transition: color .15s ease-in;
+}
+.link:hover {
+  transition: color .15s ease-in;
+}
+.link:active {
+  transition: color .15s ease-in;
+}
+.link:focus {
+  transition: color .15s ease-in;
+  outline: 1px dotted currentColor;
+}
+.pv4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.ph2 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.ph3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.mt3 {
+  margin-top: 1rem;
+}
+.tc {
+  text-align: center;
+}
+.ttu {
+  text-transform: uppercase;
+}
+.f6 {
+  font-size: .875rem;
+}
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+.dim:hover, .dim:focus {
+  text-decoration: none;
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+.dim:active {
+  opacity: .8;
+  transition: opacity .15s ease-out;
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .ph5-m {
+      padding-left: 4rem;
+      padding-right: 4rem;
+  }
+}
+@media screen and (min-width: 60em) {
+  .ph6-l {
+      padding-left: 8rem;
+      padding-right: 8rem;
+  }
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
