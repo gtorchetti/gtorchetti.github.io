@@ -70,9 +70,7 @@ body {
 }
 .container__center {
   position: static;
-  margin-top: 20%;
-  margin-bottom: 15%;
-  
+  margin: 20px 20% 15% 20px;
 }
 .projects {
   
