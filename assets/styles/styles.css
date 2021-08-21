@@ -70,10 +70,9 @@ body {
 }
 .container__center {
   position: static;
-  margin: 20px 20% 15% 20px;
+  margin: 15% 25% 15% 23%;
 }
 .projects {
-  
 }
 .db {
   display: block;
@@ -135,4 +134,8 @@ body {
 }
 .footer {
   clear: both;
+}
+.card-right {
+  position: absolute;
+  ;
 }
