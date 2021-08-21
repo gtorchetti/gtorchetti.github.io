@@ -3,6 +3,10 @@
   background-color: black;
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #000;
+}
 .text {
   text-align: center;
   color: white;
@@ -65,13 +69,13 @@
   justify-content: center;
 }
 .container__center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: static;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  
 }
 .projects {
-  margin-top: 50%;
+  
 }
 .db {
   display: block;
