@@ -1,5 +1,5 @@
- * {
-  font-family: 'DM Sans', sans-serif;
+* {
+  font-family: "DM Sans", sans-serif;
   background-color: black;
   scroll-behavior: smooth;
 }
@@ -12,7 +12,7 @@ body {
   color: white;
 }
 .footer {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: white;
 }
 .card {
@@ -73,7 +73,7 @@ body {
   margin: 15% 25% 15% 23%;
 }
 .projects {
-margin-top: 25%;
+  margin-top: 25%;
 }
 .db {
   display: block;
@@ -82,19 +82,20 @@ margin-top: 25%;
   display: inline-block;
 }
 .link {
-  transition: color .15s ease-in;
+  transition: color 0.15s ease-in;
 }
-.link:link, .link:visited {
-  transition: color .15s ease-in;
+.link:link,
+.link:visited {
+  transition: color 0.15s ease-in;
 }
 .link:hover {
-  transition: color .15s ease-in;
+  transition: color 0.15s ease-in;
 }
 .link:active {
-  transition: color .15s ease-in;
+  transition: color 0.15s ease-in;
 }
 .link:focus {
-  transition: color .15s ease-in;
+  transition: color 0.15s ease-in;
   outline: 1px dotted currentColor;
 }
 .pv4 {
@@ -102,8 +103,8 @@ margin-top: 25%;
   padding-bottom: 2rem;
 }
 .ph2 {
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .ph3 {
   padding-left: 1rem;
@@ -119,18 +120,18 @@ margin-top: 25%;
   text-transform: uppercase;
 }
 .f6 {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .ph5-m {
-      padding-left: 4rem;
-      padding-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 @media screen and (min-width: 60em) {
   .ph6-l {
-      padding-left: 8rem;
-      padding-right: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 .footer {
@@ -138,5 +139,4 @@ margin-top: 25%;
 }
 .card-right {
   position: absolute;
-  ;
 }
