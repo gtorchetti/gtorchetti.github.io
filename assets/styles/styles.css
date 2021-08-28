@@ -139,4 +139,7 @@ body {
 }
 .card-right {
   position: absolute;
+}.card-img-top {
+  border: 2px outset #fff;
+  box-shadow: 10px 10px 10px 0px rgb(204, 204, 204);
 }
